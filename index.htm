@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Volumetric Rendering</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="volumetric.js"></script>
+  </head>
+  <body marginwidth="0" marginheight="0">
+    <div class="container">
+      <header>
+        <h1>Volumetric Rendering</h1>
+      </header>
+      <section id="main">
+        <div id="volumetric">
+          <div id="object">
+            <div class="orientation" id="x"></div>
+            <div class="orientation" id="y"></div>
+            <div class="orientation" id="z"></div>
+          </div>
+        </div>
+        <div id="loading">
+          Loading Dataset
+          <div id="progress_container">
+            <div id="progress"></div>
+          </div>
+        </div>
+        <div id="mouse_layer"></div>
+      </section>
+      <section id="controls">
+        <div class="column left">
+          <p>
+            <strong>Try it out:</strong>
+            Rotate volume by clicking/tapping and dragging. Select different data set below.
+          </p>
+          <ul id="datasets">
+            <li>
+              <a href="#" id="aneurism"></a>
+              <span><strong>Aneurism &mdash;</strong> Dataset is provided by Philips Research, Hamburg, Germany.</span>
+            </li>
+            <li>
+              <a href="#" id="engine"></a>
+              <span><strong>Engine Block &mdash;</strong> Dataset is provided by General Electric, USA.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="column right">
+          <p>
+            <strong>About this demo:</strong>
+            CSS3 3D transformations allow to place elements of your page into 3-dimensional space.
+            Combined with JavaScript it enabled advanced graphics effects for science and games.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
