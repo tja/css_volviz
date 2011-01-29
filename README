@@ -1,0 +1,31 @@
+Volume Visualization with CSS3 3D Transforms
+============================================
+
+Introduction
+------------
+Sample code how CSS3 3D transforms can be used to implement volume visualization via the approach described in
+the paper "Accelerated volume rendering and tomographic reconstruction using texture mapping hardware" by
+Cabral et al. (1994). A good description can be found here:
+
+   http://www.cse.ohio-state.edu/~crawfis/cis694L/Slides/TextureSlicing.pdf
+
+
+Further Reading
+---------------
+See this blog post for details of the JavaScript/CSS3 implementation in the repository:
+
+   http://www.my-ride-home.com/2011/01/volume-rendering-with-css-3d-transforms
+
+
+Datasets
+--------
+The repository contains two volumetric data sets:
+
+ - Aneurism : Courtesy of Philips Research, Hamburg, Germany.
+ - Engine : Courtesy of General Electric
+ 
+Both datasets have been downloaded from the following data set archive:
+
+   http://www.gris.uni-tuebingen.de/edu/areas/scivis/volren/datasets/datasets.html
+
+I simply converted the datasets into PNGs with a fixed transfer function for this demo.
