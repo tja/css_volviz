@@ -1,12 +1,10 @@
 /*
-  style.css                                               Copyright (C) 2010 Thomas Jansen. All Rights Reserved.
+    style.css                                          Copyright (C) 2010-11 Thomas Jansen. All Rights Reserved.
 
-  This code is provided to you pursuant to the terms and conditions set forth  in  the  evaluation  license  (or
-  subsequent license agreement) between your organization and Thomas Jansen.
+    This code is provided to you pursuant to the terms and conditions set forth in the  evaluation  license  (or
+    subsequent license agreement) between your organization and Thomas Jansen.
 
-  Author(s): Thomas Jansen (thomas.c.jansen@gmail.com)
-
-                                          $Date: 2010-12-12 18:52:20 -0800 (Sun, 12 Dec 2010) $  $Revision: 98 $
+    Author(s): Thomas Jansen (thomas.c.jansen@gmail.com)
 */
 
 /* ---[ CHROME ]--------------------------------------------------------------------------------------------- */
@@ -83,6 +81,14 @@ body {
 
 #controls .column p {
   margin: 0 0 8px 0;
+}
+
+#gh {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 3;
 }
 
 
