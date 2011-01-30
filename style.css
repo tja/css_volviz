@@ -83,6 +83,15 @@ body {
   margin: 0 0 8px 0;
 }
 
+#controls a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#controls a:hover {
+  text-decoration: underline;
+}
+
 #gh {
   position: absolute;
   top: 0;
@@ -182,6 +191,7 @@ body {
   border: 1px solid rgb(15, 42, 101);
   border-radius: 4px;
   -webkit-perspective: 600;
+  overflow: hidden;
 }
 
 #object {
